@@ -28,9 +28,7 @@ header {
 .header-left {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  place-content: center;
-  padding-top: 1.8rem;
-  /* background-color: #0000003b; */
+  margin: 2rem 0 0 2rem;
 }
 
 .header-right {
@@ -44,7 +42,6 @@ header {
   place-content: end;
   align-items: center;
   height: 100px;
-  /* background-color: #0000003b; */
 }
 
 .nav-links {
